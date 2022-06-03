@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Barlow Condensed','Indie Flower', 'sans-serif' ;
+    font-family: 'Barlow Condensed', 'sans-serif' ;
     background-color: #303095
 }
 
@@ -41,6 +41,7 @@ body {
     font-size: 22px;
     width: 100%;
     border: none;
+    font-weight: bold;
 }
 
 .todo-form--text-area{
@@ -51,6 +52,7 @@ body {
     min-height: 150px; 
     resize: none;
     border: none;
+    font-weight: bold;
 }
 
 .todo-form--button {
