@@ -42,6 +42,7 @@ body {
     width: 100%;
     border: none;
     font-weight: bold;
+    max-width:400px;
 }
 
 .todo-form--text-area{
@@ -53,6 +54,7 @@ body {
     resize: none;
     border: none;
     font-weight: bold;
+    max-width:400px;
 }
 
 .todo-form--button {
@@ -60,10 +62,11 @@ body {
     border: none;
     font-family: inherit;
     font-size:24px;
-    border-radius: 5px;
+    border-radius: 100px;
     font-weight: bold;
     color: black;
     border: none;
+    padding:.25em;
 }
 
 .todo-form--button:hover {
@@ -73,6 +76,7 @@ body {
 .todo-list {
     margin: 0 auto;
     width: 80%;
+    max-width:400px;
 }
 
 .todo-list--todo-container{
@@ -89,6 +93,7 @@ body {
 .todo  {
     color: black;
     font-size:25px;
+    cursor:pointer
 
 
 }
@@ -96,6 +101,7 @@ body {
 .todo-grey{ 
     color:#C0C0C0;
     font-size:25px;
+    cursor:pointer
 }
 
 .todo-list--button {
@@ -103,9 +109,10 @@ body {
     border: none;
     font-family: inherit;
     font-size:20px;
-    border-radius: 5px;
+    border-radius: 100px;
     font-weight: bold;
     color: white;
+    padding:0.25em 0.5em;
 }
 
 .todo-list--button:hover {
